@@ -1,9 +1,9 @@
 {
-  "homepage":"http://andrewoc98.github.io/andrewoc98.github.io",
+  "homepage": "http://andrewoc98.github.io/andrewoc98.github.io",
   "name": "mywebsite",
   "version": "0.1.0",
   "scripts": {
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
@@ -19,7 +19,10 @@
   },
   "dependencies": {
     "gsap": "^3.9.1",
-    "three": "^0.136.0",
-    "yarn": "^1.22.17"
-  }
+    "three": "^0.136.0"
+  },
+  "main": "main.js",
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
