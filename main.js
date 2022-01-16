@@ -1,9 +1,7 @@
 import './style.css'
 import * as THREE from '/node_modules/three';
-import { ShaderMaterial } from 'three';
 import vertexShader from './Shaders/vertex.glsl'
 import fragmentShader from './Shaders/fragment.glsl'
-
 import atmosphereVertexShader from './Shaders/atmosphereVertex.glsl'
 import atmosphereFragmentShader from './Shaders/atmosphereFragment.glsl'
 
@@ -25,8 +23,8 @@ camera.position.setZ(20);
 renderer.render(scene,camera);
 
 
-const Earth = new THREE.Mesh(new THREE.SphereGeometry(5,50,50), new ShaderMaterial({vertexShader,fragmentShader,uniforms:{globetexture:{value:new THREE.TextureLoader().load('./Images/globe.jpg')}}}))
-const atmosphere = new THREE.Mesh(new THREE.SphereGeometry(5,50,50), new ShaderMaterial({vertexShader:atmosphereVertexShader,fragmentShader:atmosphereFragmentShader,blending:THREE.AdditiveBlending, side:THREE.BackSide}))
+const Earth = new THREE.Mesh(new THREE.SphereGeometry(5,50,50), new THREE.ShaderMaterial({vertexShader,fragmentShader,uniforms:{globetexture:{value:new THREE.TextureLoader().load('./Images/globe.jpg')}}}))
+const atmosphere = new THREE.Mesh(new THREE.SphereGeometry(5,50,50), new THREE.ShaderMaterial({vertexShader:atmosphereVertexShader,fragmentShader:atmosphereFragmentShader,blending:THREE.AdditiveBlending, side:THREE.BackSide}))
 atmosphere.scale.set(1.1,1.1,1.1)
 
 scene.add(atmosphere)
