@@ -1,7 +1,7 @@
 {
-  "name": "mywebsite",
+  "name": "Andrew O Connor",
   "version": "0.1.0",
-  "homepage": "https://https://andrewoc98.github.io",
+  "homepage": "https://andrew-o-connor.herokuapp.com/",
 
   "scripts": {
     "deploy": "gh-pages -d dist",
