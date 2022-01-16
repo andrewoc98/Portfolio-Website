@@ -1,20 +1,32 @@
 {
+<<<<<<< HEAD
   
+=======
+  "homepage":"http://andrewoc98.github.io/andrewoc98.github.io",
+>>>>>>> f4f7001679ac0559638afe2c5a06ca5e4bc73727
   "name": "mywebsite",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "scripts": {
+<<<<<<< HEAD
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
+=======
+    "deploy": "gh-pages -d build",
+>>>>>>> f4f7001679ac0559638afe2c5a06ca5e4bc73727
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run dev",
+    "start": "react-scripts start",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
   },
   "devDependencies": {
+    "gh-pages": "^3.2.3",
     "vite": "^2.7.2",
     "vite-plugin-string": "^1.1.1"
   },
   "dependencies": {
-    "gh-pages": "^3.2.3",
     "gsap": "^3.9.1",
     "three": "^0.136.0",
     "yarn": "^1.22.17"
