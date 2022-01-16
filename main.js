@@ -1,7 +1,6 @@
 import './style.css'
-import * as THREE from 'three';
-import {OrbitControls} from 'three/examples/jsm/controls/OrbitControls';
-import { Float32BufferAttribute, MeshBasicMaterial, ShaderMaterial } from 'three';
+import * as THREE from './node_modules/three';
+import { ShaderMaterial } from 'three';
 import vertexShader from './Shaders/vertex.glsl'
 import fragmentShader from './Shaders/fragment.glsl'
 import gsap from 'gsap'
