@@ -3,7 +3,7 @@ import * as THREE from '/node_modules/three';
 import { ShaderMaterial } from 'three';
 import vertexShader from './Shaders/vertex.glsl'
 import fragmentShader from './Shaders/fragment.glsl'
-import gsap from '/node_modules/gsap'
+import gsap from './node_modules/gsap'
 import atmosphereVertexShader from './Shaders/atmosphereVertex.glsl'
 import atmosphereFragmentShader from './Shaders/atmosphereFragment.glsl'
 
