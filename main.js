@@ -25,7 +25,8 @@ renderer.render(scene,camera);
 
 const Earth = new THREE.Mesh(new THREE.SphereGeometry(5,50,50), new THREE.ShaderMaterial({vertexShader,fragmentShader,uniforms:{globetexture:{value:new THREE.TextureLoader().load('./Images/globe.jpg')}}}))
 const atmosphere = new THREE.Mesh(new THREE.SphereGeometry(5,50,50), new THREE.ShaderMaterial({vertexShader:atmosphereVertexShader,fragmentShader:atmosphereFragmentShader,blending:THREE.AdditiveBlending, side:THREE.BackSide}))
-atmosphere.scale.set(1.1,1.1,1.1)
+atmosphere.scale.set(1.1,1.1,1.1)  
+
 
 scene.add(atmosphere)
 
