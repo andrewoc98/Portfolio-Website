@@ -1,6 +1,6 @@
 import './style.css'
-import * as THREE from '/node_modules/three';
 import vertexShader from './Shaders/vertex.glsl'
+import * as THREE from '/node_modules/three';
 import fragmentShader from './Shaders/fragment.glsl'
 import atmosphereVertexShader from './Shaders/atmosphereVertex.glsl'
 import atmosphereFragmentShader from './Shaders/atmosphereFragment.glsl'
