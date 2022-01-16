@@ -1,9 +1,8 @@
-import './style.css'
-import vertexShader from './Shaders/vertex.glsl'
-import * as THREE from '/node_modules/three';
-import fragmentShader from './Shaders/fragment.glsl'
-import atmosphereVertexShader from './Shaders/atmosphereVertex.glsl'
-import atmosphereFragmentShader from './Shaders/atmosphereFragment.glsl'
+import vertexShader from './Shaders/vertex.glsl';
+import * as THREE from 'three';
+import fragmentShader from './Shaders/fragment.glsl';
+import atmosphereVertexShader from './Shaders/atmosphereVertex.glsl';
+import atmosphereFragmentShader from './Shaders/atmosphereFragment.glsl';
 
 
 const mouse={x:undefined,
