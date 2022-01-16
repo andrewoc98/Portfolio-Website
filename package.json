@@ -1,18 +1,9 @@
 {
-<<<<<<< HEAD
-  
-=======
   "homepage":"http://andrewoc98.github.io/andrewoc98.github.io",
->>>>>>> f4f7001679ac0559638afe2c5a06ca5e4bc73727
   "name": "mywebsite",
   "version": "0.1.0",
   "scripts": {
-<<<<<<< HEAD
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
-=======
     "deploy": "gh-pages -d build",
->>>>>>> f4f7001679ac0559638afe2c5a06ca5e4bc73727
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
