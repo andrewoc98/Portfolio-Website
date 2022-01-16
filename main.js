@@ -3,7 +3,7 @@ import * as THREE from '/node_modules/three';
 import { ShaderMaterial } from 'three';
 import vertexShader from './Shaders/vertex.glsl'
 import fragmentShader from './Shaders/fragment.glsl'
-import gsap from './node_modules/gsap'
+
 import atmosphereVertexShader from './Shaders/atmosphereVertex.glsl'
 import atmosphereFragmentShader from './Shaders/atmosphereFragment.glsl'
 
@@ -60,13 +60,7 @@ function animate(){
   renderer.render(scene, camera)
 
 
-  gsap.to(group.rotation,{
-                          y: mouse.x*0.5,duration: 2})
-
+  
 }
 animate()
 
-addEventListener('mousemove',()=>{
-  mouse.x=(event.clientX/innerWidth)*2-1
-  mouse.y=-(event.clintY/innerHeight)*2+1
-});
