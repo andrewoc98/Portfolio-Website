@@ -1,6 +1,6 @@
 import './style.css'
-import * as THREE from './node_modules/three';
-import { ShaderMaterial } from './node_modules/three';
+import * as THREE from '/node_modules/three';
+import { ShaderMaterial } from 'three';
 import vertexShader from './Shaders/vertex.glsl'
 import fragmentShader from './Shaders/fragment.glsl'
 import gsap from 'gsap'
