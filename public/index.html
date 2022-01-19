@@ -15,15 +15,6 @@
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
     -->
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
-
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
     <title>Andrew O'Connor</title>
   </head>
   <body>
@@ -33,22 +24,23 @@
             <li class="nav-items"><a href="#">Home</a></li>
             <li class="nav-items"><a href="#">Education</a></li>
             <li class="nav-items"><a href="#">Expeirnce</a></li>
-            <li class="nav-items"><a href="#">CV</a></li>
+            <li class="nav-items"><a href="src\common\AndrewOConnorCv.pdf">CV</a></li>
+            <li class="nav-items"><a href="#">GitHub</a></li>
         </ul>
     </nav>
       <div id="root"></div>
-    </div>
-    
-    
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+      <div class="title-container">
+        <div class="title">
+          <h1>Andrew O'Connor</h1>
+          <p>
+            Computer Systems Graduate from the University of Limerick.
+            Graduate in 2021. Currently Looking for full-time employment.
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
+          </p>
+          <br>
+          <a class="btn" href="#">Learn More</a>
+        </div>
+    
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
   </body>
 </html>
