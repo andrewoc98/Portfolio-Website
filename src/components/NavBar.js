@@ -1,12 +1,17 @@
 import React from "react"
-import App from "./App"
-function NavBar() {
+import Home from "./Home"
+import Education from "./Education"
+import Experience from "./Experience"
+//TODO: link all the nav bar buttons
+//TODO: Add transitions to each selection
+
+function NavBar(props) {
     return (
         <nav className="navigation">
             <ul className="nav-menu">
-                <li className="nav-items" ><a href="#">Home</a></li>
-                <li className="nav-items" ><a href="#">Education</a></li>
-                <li className="nav-items" ><a href="#">Experience</a></li>
+                <li className="nav-items" ><a onClick={()=>props.changeText(<Home/>)}>Home</a></li>
+                <li className="nav-items" ><a onClick={()=>props.changeText(<Education/>)}>Education</a></li>
+                <li className="nav-items" ><a onClick={()=>props.changeText(<Experience/>)}>Experience</a></li>
                 <li className="nav-items"><a href="https://drive.google.com/file/d/1kfmgpQzRA2uIpCnE_pnPQihCOPMHtEvK/view?usp=sharing" target="_blank">CV</a></li>
                 <li className="nav-items"><a href="https://github.com/andrewoc98">GitHub</a></li>
             </ul>

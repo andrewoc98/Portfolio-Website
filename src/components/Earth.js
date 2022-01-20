@@ -1,9 +1,8 @@
 import React from 'react';
 import {useFrame ,useLoader } from '@react-three/fiber'
 import { TextureLoader } from "three/src/loaders/TextureLoader";
-import Color from '../Images/Color.jpg';
-import ao from '../Images/3tqI6.jpg';
-import displacement from '../Images/displacement_Map.jpg';
+import Color from '../common/img/Color.jpg';
+import displacement from '../common/img/displacement_Map.jpg';
 function Earth() {
     const myMesh = React.useRef();
 
@@ -12,7 +11,6 @@ function Earth() {
         myMesh.current.rotation.y += 0.0015;
     });
     const name = useLoader(TextureLoader, Color);
-    const aob = useLoader(TextureLoader, ao)
     const displacementM = useLoader(TextureLoader, displacement)
     return (
         <>
@@ -25,7 +23,6 @@ function Earth() {
 
                     displacementScale={0.15}
                     map={name}
-                    roughnessMap={aob}
                     displacementMap={displacementM}
                 />
 
