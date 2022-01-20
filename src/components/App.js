@@ -13,6 +13,7 @@ function App() {
   
   return (
     <div className="container">
+      
       <div className="App">
         <div>
           <NavBar changeText={text => setText(text)} />

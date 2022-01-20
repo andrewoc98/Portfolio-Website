@@ -36,7 +36,9 @@ body{
 .nav-items:hover::after {
     width: 100%
 }
+.slide p{
 
+}
 .navbar-dark .navbar-nav .active>.nav-link,
 .navbar-dark .navbar-nav .nav-link.active,
 .navbar-dark .navbar-nav .nav-link.show,
@@ -79,6 +81,7 @@ body{
     color: rgb(231, 231, 231);
     padding: 0 2rem;
     font-size: 110%;
+    width: 35%;
 }
 
 .title-container h1{
@@ -92,49 +95,16 @@ body{
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     color: rgb(255, 255, 255);
-    width: 70%;
+    
     margin: 1rem 0;
 }
-.slideshow-container {
-  position: relative;
-  background: #ff0000f1;
-}
+.slider{
+    display: flex;
+    justify-content: center;
 
-/* Slides */
-.mySlides {
-  display: none;
-  padding: 80px;
-  text-align: center;
-  color: #ffffff;
-  background-color: #edcd7b;
 }
-
-/* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -30px;
-  padding: 16px;
-  color: #888;
-  font-weight: bold;
-  font-size: 20px;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
-
-/* Position the "next button" to the right */
-.next {
-  position: absolute;
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: transparent;
-  color: white;
+.div-slider{
+    justify-content: center;
 }
 .btn{
     padding: 0.5rem 1rem;
