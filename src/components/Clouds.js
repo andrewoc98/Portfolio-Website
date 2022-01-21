@@ -1,5 +1,5 @@
 import * as THREE from 'three';
-import CloudTexture from '../Images/earthCloud.png';
+import CloudTexture from '../common/img/earthCloud.png';
 import {useFrame } from '@react-three/fiber'
 function Clouds() {
     var gcloud = new THREE.SphereGeometry(2.1, 32, 32)
