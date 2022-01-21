@@ -7,10 +7,10 @@ import Moon from './Moon'
 import Loader from './Loader'
 import NavBar from './NavBar';
 import Home from './Home';
-//TODO: Framer motion 
+//TODO: Framer motion https://www.framer.com/docs/transition/
 function App() {
   const [text ,setText]= useState(<Home/>)
-  
+    
   return (
     <div className="container">
       

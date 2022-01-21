@@ -36,8 +36,10 @@ body{
 .nav-items:hover::after {
     width: 100%
 }
-.slide p{
-
+h2{
+    font-family:'Poppins', sans-serif;
+    font-size: medium;
+    color:#edcd7b
 }
 .navbar-dark .navbar-nav .active>.nav-link,
 .navbar-dark .navbar-nav .nav-link.active,
@@ -72,9 +74,9 @@ body{
     position: absolute;
     width: 50%;
     height: auto;
-    top: 50%;
+    top: 20%;
     left: 0%;
-    transform: translateY(-50%);
+    
 }
 
 .title-container{
@@ -88,6 +90,10 @@ body{
     text-transform: uppercase;
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
+}
+
+.react-tabs__tab {
+    font-family: 'Poppins', sans-serif;
 }
 
 .title-container p{
