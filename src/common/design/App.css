@@ -98,12 +98,9 @@ body{
     
     margin: 1rem 0;
 }
-.slider{
-    display: flex;
-    justify-content: center;
 
-}
 .div-slider{
+    padding: 50px;
     justify-content: center;
 }
 .btn{

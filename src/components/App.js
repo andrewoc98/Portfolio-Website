@@ -7,7 +7,7 @@ import Moon from './Moon'
 import Loader from './Loader'
 import NavBar from './NavBar';
 import Home from './Home';
-
+//TODO: Framer motion 
 function App() {
   const [text ,setText]= useState(<Home/>)
   
