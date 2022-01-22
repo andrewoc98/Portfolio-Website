@@ -28,7 +28,7 @@ function Education() {
                     </TabPanel>
                     <TabPanel>
                         <h2>Object Oriented Development:</h2>
-                        <p>Reviews the use of objects, interfaces and abstraction aswell as best practices on how use them.</p>
+                        <p>Reviews the use of objects, interfaces and abstraction in the Java programming language. Ontop of this reviewed different types and practical use of design patterns. Used the Spring framework in this module.</p>
                         <br/>
 
                         <h2>Neural Computing:</h2>

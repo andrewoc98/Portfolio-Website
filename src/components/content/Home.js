@@ -1,4 +1,5 @@
 import React from "react"
+import '../../common/design/App.css'
 function Home() {
     return (
     
@@ -11,6 +12,7 @@ function Home() {
 
                     </p>
                     <br />
+                    <q>However difficult life may seem, there is always something you can do, and succeed at. It matters that you don’t just give up.</q><br/> — Stephen Hawking
                 </div>
             </div>
 
