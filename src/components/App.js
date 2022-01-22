@@ -1,39 +1,25 @@
-import { Canvas } from '@react-three/fiber';
-import React, { Suspense, useState } from 'react';
-import Earth from './Earth'
-import Clouds from './Clouds'
-import Stars from './Stars'
-import Moon from './Moon'
+
+import React, { Suspense } from 'react';
+
 import Loader from './Loader'
-import NavBar from './NavBar';
-import Home from './Home';
+import NavBar from './content/NavBar';
+import Home from './content/Home';
+import Planet_Canvas from './planet_canvas/Planet_Canvas';
+import Content from './content/Content';
 //TODO: Framer motion https://www.framer.com/docs/transition/
 function App() {
-  const [text ,setText]= useState(<Home/>)
-    
+
+
   return (
-    <div className="container">
-      
-      <div className="App">
-        <div>
-          <NavBar changeText={text => setText(text)} />
-
-          <Canvas >
-
-            <Suspense fallback={<Loader />} >
-              <Stars />
-              <Earth />
-              <Clouds />
-              <Moon />
-            </Suspense>
-          </Canvas>
-
-
-
+    
+      <div className='content'>
+        <Content />
+        <div />
+        <div className="App">
+          <Planet_Canvas />
         </div>
-      {text}
       </div>
-    </div>
+
   );
 }
 

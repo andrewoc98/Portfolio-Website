@@ -18,7 +18,7 @@ body{
 }
 
 .container{
-    position: absolute;
+    
     top: 0%;
     left: 0%;
     width: 100%;
@@ -49,11 +49,16 @@ h2{
 .navbar-dark .navbar-nav .nav-link:hover {
     color: #ffffff
 }
+.title-container{
+    z-index: 90;
+    position: relative;
+}
 
 .nav-menu{
     display: flex;
     justify-content: flex-end;
     padding: 0.5rem 1rem;
+
     
 }
 
@@ -106,6 +111,7 @@ h2{
 }
 
 .div-slider{
+    margin-top: -10%;
     padding: 50px;
     justify-content: center;
 }

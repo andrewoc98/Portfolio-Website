@@ -14,6 +14,7 @@
     "@testing-library/user-event": "^13.5.0",
     "drei": "^2.2.21",
     "fibre": "^1.1.2",
+    "howler": "^2.2.3",
     "pdfjs-dist": "^2.6.347",
     "prop-types": "^15.8.1",
     "react": "^17.0.2",
