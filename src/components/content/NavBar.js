@@ -17,7 +17,7 @@ function NavBar(props) {
                 <li className="nav-items" ><a onClick={()=>props.changeText(<Education/>)}>Education</a></li>
                 <li className="nav-items" ><a onClick={()=>props.changeText(<Experience/>)}>Experience</a></li>
                 <li className="nav-items"><a href="https://drive.google.com/file/d/1kfmgpQzRA2uIpCnE_pnPQihCOPMHtEvK/view?usp=sharing" target="_blank">CV</a></li>
-                <li className="nav-items"><a href="https://github.com/andrewoc98">GitHub</a></li>
+                <li className="nav-items"><a href="https://github.com/andrewoc98" target="_blank">GitHub</a></li>
             </ul>
         </nav>
     )
