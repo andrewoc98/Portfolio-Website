@@ -13,6 +13,7 @@ function NavBar(props) {
         <nav className="navigation">
             <button className="button" onClick={Audio}>Play/Pause Music</button>
             <ul className="nav-menu">
+                
                 <li className="nav-items" ><a onClick={()=>props.changeText(<Home/>)}>Home</a></li>
                 <li className="nav-items" ><a onClick={()=>props.changeText(<Education/>)}>Education</a></li>
                 <li className="nav-items" ><a onClick={()=>props.changeText(<Experience/>)}>Experience</a></li>
