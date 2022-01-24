@@ -11,8 +11,8 @@ import Audio from "./Audio"
 function NavBar(props) {
     return (
         <nav className="navigation">
+            <button className="button" onClick={Audio}>Play/Pause Music</button>
             <ul className="nav-menu">
-                <li><button className="button" onClick={Audio}>Play/Pause Music</button></li>
                 <li className="nav-items" ><a onClick={()=>props.changeText(<Home/>)}>Home</a></li>
                 <li className="nav-items" ><a onClick={()=>props.changeText(<Education/>)}>Education</a></li>
                 <li className="nav-items" ><a onClick={()=>props.changeText(<Experience/>)}>Experience</a></li>

@@ -102,7 +102,6 @@ h1{
     color: #edcd7b;
 }
 .button {
-    left:-650%;
     position: relative;
     background-color: #ffffff;
     border: none;
@@ -155,6 +154,7 @@ h1{
     padding: 50px;
     justify-content: center;
 }
+
 .btn{
     padding: 0.5rem 1rem;
     margin-top: 2rem;
@@ -175,13 +175,13 @@ h1{
     }
 
     .title h1{
-        font-size: 1.8rem;
+        font-size: 1.8em;
     }    
 
     .title p{
         width: 100%;
-        font-size: 0.9rem;
-        margin: 0.5rem 0;
+        font-size: 0.9em;
+        margin: 0.5em 0;
     }
 
     .btn{
