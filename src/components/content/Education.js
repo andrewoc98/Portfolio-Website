@@ -81,10 +81,6 @@ function Education() {
                         <p>Provides understanding and familiarity with AWS Cloud Concepts.</p>
                         <br/>
 
-                        <h2>Microsoft Azure Cloud Fundamentals:</h2>
-                        <p>Delivers knowlege of cloud services provided by Microsoft Azure.</p>
-                        <br/>
-
                     </TabPanel>
                 </Tabs>
             </div>
