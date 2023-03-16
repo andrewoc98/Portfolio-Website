@@ -1,9 +1,5 @@
 
-import React, { Suspense } from 'react';
-
-import Loader from './Loader'
-import NavBar from './content/NavBar';
-import Home from './content/Home';
+import React from 'react';
 import Planet_Canvas from './planet_canvas/Planet_Canvas';
 import Content from './content/Content';
 //TODO: Framer motion https://www.framer.com/docs/transition/
